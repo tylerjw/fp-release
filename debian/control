@@ -1,0 +1,12 @@
+Source: ros-rolling-fp
+Section: misc
+Priority: optional
+Maintainer: Tyler Weaver <squirrel428@pm.me>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, librange-v3-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-gtest, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-ros-workspace
+Homepage: https://fplib.dev
+Standards-Version: 3.9.2
+
+Package: ros-rolling-fp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, librange-v3-dev, ros-rolling-ros-workspace
+Description: FP extensions for C++
